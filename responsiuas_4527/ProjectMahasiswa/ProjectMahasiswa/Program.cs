@@ -14,7 +14,7 @@ namespace ProjectMahasiswa
 
         static void Main(string[] args)
         {
-            Console.Title = "Responsi UAS Matakuliah Pemrograman";
+            Console.Title = "Responsi UAS Matakuliah Pemrograman (21.11.4527)";
 
             while (true)
             {
