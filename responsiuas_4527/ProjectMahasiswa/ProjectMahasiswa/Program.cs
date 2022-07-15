@@ -96,11 +96,11 @@ namespace ProjectMahasiswa
             Console.WriteLine("Data Mahasiswa\n");
             int no = 1;
 
-            Console.WriteLine("No\tNIM\tNama \tJenis Kelamin\tIPK");
+            Console.WriteLine("No|\tNIM|\tNama| \tJenis Kelamin|\tIPK");
             foreach (Mahasiswa mahasiswa in daftarMahasiswa)
             {
 
-                Console.WriteLine("{0}.\t{1}\t{2} \t{3}\t{4}", no, mahasiswa.nim, mahasiswa.nama, mahasiswa.Kelamin, mahasiswa.total);
+                Console.WriteLine("{0}.|\t{1}\t{2} |\t{3}   |\t{4}", no, mahasiswa.nim, mahasiswa.nama, mahasiswa.Kelamin, mahasiswa.total);
                 no++;
             }
             string nim = Console.ReadLine();
